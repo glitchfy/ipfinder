@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "eslint:fix": "eslint --fix"
   },
   "author": "",
   "license": "ISC",
