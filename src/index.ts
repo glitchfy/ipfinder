@@ -9,7 +9,7 @@ import currencyDetails from '../data/currency_details.json'
 const app = express();
 const port = 3000;
 
-const loadCountryData = (countryCode: string): any | null => {
+const loadCountryData = (countryCode: string) => {
     try {
         const filePath = join(__dirname, `../data/countries/${countryCode}.json`);
         if (fs.existsSync(filePath)) {
