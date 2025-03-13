@@ -5,7 +5,7 @@ import { resolve, join } from 'path';
 import fs from 'fs';
 import countryFlagAndEmoji from '../data/country_flag_and_emojis/by-code.json'
 import currencyDetails from '../data/currency_details.json'
-
+//comit 1
 const app = express();
 const port = 3000;
 
